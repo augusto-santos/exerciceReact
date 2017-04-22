@@ -1,0 +1,6 @@
+{
+  "name": "Family",
+  "version": "0.0.1",
+  "private": true,
+  "main": "./Family.js"
+}
