@@ -6,7 +6,7 @@ import TodoList from './todoList'
 class Todo extends Component{
     render(){
         return(
-            <div>
+            <div className="container">
                 <PageHeader name='Tarefas' small='Cadastro' />
                 <TodoForm />
                 <TodoList />
