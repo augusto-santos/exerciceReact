@@ -1,8 +1,11 @@
-# TodoApp Frontend 
+## TodoApp Frontend
+---
+
+> TodoApp e uma aplicação web feita com apenas com [React](https://facebook.github.io/react/) sem [Redux](http://redux.js.org/), >usando também a framework [Bootstrap](http://getbootstrap.com/getting-started/) para uma rapida implementação da aplicação.
 
 ![alt text](https://github.com/augusto-santos/exerciceReact/blob/master/documenta%C3%A7%C3%A3o/img/TodoApp.jpg "TodoApp")
 
-### Iniciando
+#### Iniciando
   Instale as dependencias do Node:
 ```
 npm install
