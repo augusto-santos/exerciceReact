@@ -1,4 +1,4 @@
-![Webpack](https://img.shields.io/badge/Webpack-1.14.0-green.svg?style=flat)![npm](https://img.shields.io/badge/npm-4.2.0-green.svg?style=flat)
+![Node](https://img.shields.io/badge/node-7.9.0-green.svg?style=flat) ![npm](https://img.shields.io/badge/npm-4.2.0-green.svg?style=flat) ![Webpack](https://img.shields.io/badge/Webpack-1.14.0-green.svg?style=flat)
 
 ## TodoApp Frontend
 
