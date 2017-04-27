@@ -8,13 +8,13 @@
 ![alt text](https://github.com/augusto-santos/exerciceReact/blob/master/documenta%C3%A7%C3%A3o/img/TodoApp.jpg "TodoApp")
 
 ### Recursos
-+ [Webpack](https://webpack.js.org/) - Webpack & webpack-dev-server
-+ [Babel](https://babeljs.io/) - Preset es2015 & react
-+ [Axios](https://github.com/mzabriskie/axios) - Promise based HTTP client for the browser and node.js
-+ [Bootstrap](http://getbootstrap.com/getting-started/) - CSS framework
++ [Webpack](https://webpack.js.org/?target=_blank) - Webpack & webpack-dev-server
++ [Babel](https://babeljs.io/?target=_blank) - Preset es2015 & react
++ [Axios](https://github.com/mzabriskie/axios?target=_blank) - Promise based HTTP client for the browser and node.js
++ [Bootstrap](http://getbootstrap.com/getting-started/?target=_blank) - CSS framework
 
 #### Iniciando
-  Instale as dependencias do [Node](https://nodejs.org/) com [npm](https://www.npmjs.com/) ou [yarn](https://yarnpkg.com/)
+  Instale as dependencias do [Node](https://nodejs.org/?target=_blank) com [npm](https://www.npmjs.com/?target=_blank) ou [yarn](https://yarnpkg.com/)
 ```
 npm install
 ||
@@ -28,7 +28,7 @@ npm run dev
 ||
 yarn dev
 ```
-  A aplicação estará funcionando no [http://localhost:8080](http://localhost:8080)
+  A aplicação estará funcionando no [http://localhost:8080](http://localhost:8080?target=_blank)
 
   **Build de produção**
 ```
