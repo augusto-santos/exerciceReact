@@ -37,3 +37,11 @@ npm run production
 yarn production
 ```
   Os arquivos de produção estarão na pasta __public__
+  
+### Ajuda
+
+  Veja o [FAQ](https://github.com/augusto-santos/exerciceReact/wiki/FAQ) para confirmar se sua pergunta já não foi respondida, ou [registre um novo problema](https://github.com/augusto-santos/exerciceReact/issues).
+  
+### Licença
+
+MIT
