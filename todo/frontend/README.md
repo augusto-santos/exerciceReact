@@ -5,7 +5,7 @@
 ![alt text](https://github.com/augusto-santos/exerciceReact/blob/master/documenta%C3%A7%C3%A3o/img/TodoApp.jpg "TodoApp")
 
 ### Recursos
-+ [Webpack](https://webpack.js.org/) (https://img.shields.io/badge/Webpack-1.14.0-green.svg)
++ [Webpack](https://webpack.js.org/) ![Webpack](https://img.shields.io/badge/Webpack-1.14.0-green.svg?style=flat-square)
 
 #### Iniciando
   Instale as dependencias do [Node](https://nodejs.org/) com [npm](https://www.npmjs.com/) ou [yarn](https://yarnpkg.com/)
