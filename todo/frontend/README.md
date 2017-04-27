@@ -1,6 +1,6 @@
 # TodoApp Frontend 
 
-<img src="https://www.dropbox.com/s/xak62inprxtaqq8/react-exercice?dl=0" width="100%" />
+![alt text](https://github.com/augusto-santos/exerciceReact/blob/master/documenta%C3%A7%C3%A3o/img/TodoApp.jpg "TodoApp")
 
 ### Iniciando
   Instale as dependencias do Node:
