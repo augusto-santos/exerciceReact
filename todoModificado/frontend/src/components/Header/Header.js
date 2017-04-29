@@ -8,8 +8,8 @@ class Header extends Component{
                 <div className={`containerHeader`} >
                     <nav className={`navHeader`}>
                         <ul className={`ulHeader`} >
-                            <li className={`liHeader`} ><a className={`linkHeader`} href="#">Tarefas</a></li>
-                            <li className={`liHeader`} ><a className={`linkHeader`} href="#">Sobre</a></li>
+                            <li className={`liHeader`} ><a className={`linkHeader`} href="#/todos">Tarefas</a></li>
+                            <li className={`liHeader`} ><a className={`linkHeader`} href="#/about">Sobre</a></li>
                         </ul>
                     </nav>
                 </div>

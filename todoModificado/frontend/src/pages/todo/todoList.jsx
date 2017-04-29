@@ -1,6 +1,6 @@
 import React from 'react'
-import IconButton from '../Template/iconButton'
-import Item from '../components/Item'
+import IconButton from '../../Template/iconButton'
+import Item from '../../components/Item'
 
 export default props => {
 

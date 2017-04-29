@@ -1,5 +1,5 @@
 import React from 'react'
-import PageHeader from '../Template/pageHeader'
+import PageHeader from '../../Template/pageHeader'
 
 export default props => (
     <div>

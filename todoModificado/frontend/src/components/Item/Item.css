@@ -7,18 +7,21 @@
     margin: 10px 20px;
     border-top-left-radius: 2px;
     border-bottom-left-radius: 2px;
-    border-left: 15px solid #1464f6;
+    border-left: 15px solid #0DA0E3;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,.25);
+    transition: fade .5s ease-in;
 }
 
 .Done{
     color: #e3e3e3;
-    border-left: 15px solid #093584;
+    border-left: 15px solid transparent;
     background: #fcfbfb;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.15);
+    transition: box-shadow, background .3s ease-out, color, border-left .2s ease;
 }
     .Done .btn{
         color: #cecece;
+        transition: fade-anim .3s ease;
     }
         .Done .btn:hover{
             color: #FFF;
@@ -57,3 +60,16 @@
         margin: 0;
         border-radius: 0;
     }
+
+  
+  @keyframes fade-anim{
+      0%{
+          opacity: 0;
+      }
+      50%{
+          opacity: .3;
+      }
+      100%{
+          opacity: 1;
+      }
+  }
