@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import axios from 'axios'
 
+import PageHeader from '../Template/pageHeader'
+import TodoForm from './todoForm'
 import TodoList from './todoList'
-import Footer from '../../components/Footer'
-import Box from '../../components/Box'
 
 const URL = 'http://localhost:3000/api/todos'
 
@@ -11,7 +11,7 @@ class Todo extends Component{
 
     constructor(props){
         super(props)
-        this.state = { description: '', search: '', list: []}
+        this.state = { description: '', list: []}
 
         this.handleChange = this.handleChange.bind(this)
         this.handleAdd = this.handleAdd.bind(this)
@@ -20,7 +20,6 @@ class Todo extends Component{
         this.handleMarkAsPending = this.handleMarkAsPending.bind(this)
         this.handleSearch = this.handleSearch.bind(this)
         this.handleClear = this.handleClear.bind(this)
-        this.search = this.search.bind(this)
 
         this.refresh()
     }
@@ -37,10 +36,6 @@ class Todo extends Component{
 
     handleChange(e){
         this.setState({...this.state, description: e.target.value})
-    }
-
-    search(e){
-        this.setState({...this.state, search: e.target.value})
     }
     
     handleAdd() {
@@ -70,19 +65,20 @@ class Todo extends Component{
     
     render(){
         return(
-            <Box title="Tarefas" subtitle="Cadastro & Pesquisa" >
-                
+            <div className="container">
+                <PageHeader name='Tarefas' small='Cadastro' />
+                <TodoForm 
+                    handleAdd={this.handleAdd} 
+                    value={this.state.description} 
+                    handleChange={this.handleChange}
+                    handleSearch={this.handleSearch}
+                    handleClear={this.handleClear} />
                 <TodoList 
                     list={this.state.list} 
                     handleRemove={this.handleRemove}
                     handleMarkAsDone={this.handleMarkAsDone}
                     handleMarkAsPending={this.handleMarkAsPending} />
-                <Footer value={this.state.description} 
-                    handleChange={this.handleChange}
-                    handleAdd={this.handleAdd} search={this.state.search} 
-                    searchField={this.search} 
-                    handleSearch={this.handleSearch} />
-            </Box>
+            </div>
         )
     }
 }
